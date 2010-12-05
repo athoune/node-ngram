@@ -1,6 +1,9 @@
 Ngram for Node
 ==============
 
+Tokenization
+------------
+
 		var Ngrams = require('ngram').Ngrams;
 		
 		var tokens = "Hello world".tokens();
@@ -28,4 +31,10 @@ OpenOffice and its variants (LibreOffice, NeoOffice, OOo4Kids ...) provides libt
 Next step
 ---------
 
-A twitter language filter for real and small sentences testing in real world.
+A twitter language filter for small sentences testing in real world.
+
+More links
+----------
+
+ * [libTextCat](http://software.wise-guys.nl/libtextcat/) wich provides original stats files.
+ * [language_detector](https://github.com/feedbackmine/language_detector), a ruby tools with wikipedia's data.
