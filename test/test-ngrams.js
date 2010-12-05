@@ -9,5 +9,8 @@ n.feed('je');
 n.feed('mange');
 n.feed('des');
 n.feed('carottes');
+n.feed('et');
+n.feed('des');
+n.feed('patates');
 
-sys.debug(n.ranks());
+sys.debug(sys.inspect(n.ranks()));
