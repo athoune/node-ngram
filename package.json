@@ -1,12 +1,12 @@
 {
 	"name"        : "ngram",
-	"version"     : "0.0.1",
+	"version"     : "0.0.2",
 	"main"        : "./lib/ngram",
 	"description" : "ngrams for node.js",
 	"author"      : "Mathieu Lecarme <mathieu@garambrogne.net>",
 	"dependencies": {
 	},
-	"keywords"    : ["ngram"],
+	"keywords"    : ["ngram", "language"],
 	"repositories": [{
 		"type": "git",
 		"path": "git://github.com/athoune/node-ngram.git"
