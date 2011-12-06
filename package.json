@@ -1,18 +1,24 @@
 {
-	"name"        : "ngram",
-	"version"     : "0.0.2",
-	"main"        : "./lib/ngram",
-	"description" : "ngrams for node.js",
-	"author"      : "Mathieu Lecarme <mathieu@garambrogne.net>",
-	"dependencies": {
-	},
-	"keywords"    : ["ngram", "language"],
-	"repositories": [{
-		"type": "git",
-		"path": "git://github.com/athoune/node-ngram.git"
-		}],
-	"homepage"    : "http://github.com/athoune/node-ngram",
-	"bugs"        : "http://github.com/athoune/node-ngram/issues",
-	"licenses"    : [{ "type": "BSD"}],
-	"engine"      : "node"
+    "name"        : "ngram",
+    "version"     : "0.0.3",
+    "main"        : "./lib/ngram",
+    "description" : "ngrams for node.js",
+    "author"      : "Mathieu Lecarme <mathieu@garambrogne.net>",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "vows": ">=0.6"
+    },
+    "keywords"    : ["ngram", "language"],
+    "repositories": [{
+        "type": "git",
+        "path": "git://github.com/athoune/node-ngram.git"
+    }],
+    "homepage"    : "http://github.com/athoune/node-ngram",
+    "bugs"        : "http://github.com/athoune/node-ngram/issues",
+    "licenses"    : [{ "type": "MIT"}],
+    "engine"      : "node",
+    "scripts"     : {
+        "test"    : "node test/test-ngrams.js"
+    }
 }
